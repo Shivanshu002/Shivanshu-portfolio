@@ -1,25 +1,17 @@
-// Import necessary dependencies
 import React, { useState } from 'react';
-import Logo from '../assets/Logo.png'; // Importing the logo image
-import { Menu, X } from 'lucide-react'; // Icons for the mobile menu
+import Logo from '../assets/Logo.png'; 
+import { Menu, X } from 'lucide-react'; 
 
-// Navbar Component
 const Navbar = () => {
-    // State to manage mobile menu toggle
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        // Main header wrapper
         <header className='sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-4 lg:px-0'>
-            {/* Navbar container */}
             <div className='max-w-7xl mx-auto flex h-14 items-center'>
-                {/* Logo and Desktop Navigation */}
                 <div className='md:mr-4 flex justify-between w-full'>
-                    {/* Logo */}
                     <a href="#" className='mr-6 flex items-center space-x-2'>
-                        <img src={Logo} alt="" className='w-36' />
+                        <img src={Logo} alt="" className='w-40' />
                     </a>
-                    {/* Desktop Menu Links */}
                     <nav className='md:flex hidden items-center space-x-6 text-lg font-medium'>
                         <a href="#about" className='transition-colors hover:text-foreground/80 text-foreground/60'>About</a>
                         <a href="#projects" className='transition-colors hover:text-foreground/80 text-foreground/60'>Projects</a>
@@ -28,7 +20,6 @@ const Navbar = () => {
                     </nav>
                 </div>
 
-                {/* Mobile Menu Toggle Button */}
                 <button 
                     className='inline-flex items-center justify-center rounded-md md:hidden'
                     onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -42,7 +33,6 @@ const Navbar = () => {
                 </button>
             </div>
 
-            {/* Mobile Menu */}
             {mobileMenuOpen && (
                 <div className='md:hidden'>
                     <div className='space-y-1 px-2 pb-3 pt-2'>

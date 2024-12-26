@@ -1,43 +1,36 @@
-// Importing React and assets
-import React from 'react'; 
-import MernStack from '../assets/mernstack.png'; // Image for MERN stack
-import Html from '../assets/Html.png'; // Image for HTML
-import Css from '../assets/CSS.png'; // Image for CSS
-import Javascript from '../assets/JS.png'; // Image for JavaScript
-import ReactLogo from '../assets/React.png'; // Image for React
-import ReduxLogo from '../assets/Redux.png'; // Image for Redux
-import Tailwind from '../assets/Tailwind Css.png'; // Image for Tailwind CSS
-import Bootstrap from '../assets/Bootstrap.png'; // Image for Bootstrap
-import NodeLogo from '../assets/NodeLogo.png'; // Image for Node.js
-import Mongodb from '../assets/mongodb.svg'; // Image for MongoDB
-import Express from '../assets/Express.png'; // Image for Express.js
-import NextJs from '../assets/NextJs.png'; // Image for Next.js
+import React from 'react';
+import MernStack from '../assets/mernstack.png';
+import Html from '../assets/Html.png';
+import Css from '../assets/CSS.png';
+import Javascript from '../assets/JS.png';
+import ReactLogo from '../assets/React.png';
+import ReduxLogo from '../assets/Redux.png';
+import Tailwind from '../assets/Tailwind Css.png';
+import Bootstrap from '../assets/Bootstrap.png';
+import NodeLogo from '../assets/NodeLogo.png';
+import Mongodb from '../assets/mongodb.svg';
+import Express from '../assets/Express.png';
+import NextJs from '../assets/NextJs.png';
 
-// About Component
 const About = () => {
     return (
         <div className='relative' id='about'>
-            {/* Section with a gray background */}
             <div className='bg-gray-100 py-12'>
-                {/* Container for content */}
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 
-                    {/* Header */}
                     <div className='text-center'>
                         <h2 className='text-base text-red-600 font-semibold tracking-wide uppercase'>About Me</h2>
                         <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
-                            Hi, I'm Rohit Singh
+                            Hi, I'm Shivanshu Rajput
                         </p>
                         <p className='mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto'>
-                            A Full-Stack Developer with expertise in web development, WordPress, SEO, and the MERN stack.
+                            A Frontend Developer with expertise in web and mobile apps development , React js, React Native,Vite js, Next.js, Shopify, ToastTab and the MERN stack.
                         </p>
                     </div>
 
-                    {/* Journey and Skills Section */}
                     <div className='mt-10'>
                         <div className='grid grid-cols-1 gap-12 lg:grid-cols-2'>
 
-                            {/* Journey Section */}
                             <div>
                                 <h3 className='text-2xl font-semibold text-gray-900'>My Journey</h3>
                                 <p className='mt-4 text-lg text-gray-600'>
@@ -46,16 +39,13 @@ const About = () => {
                                 <img src={MernStack} alt="MERN stack" className='p-2 rounded-lg w-52 mt-4' />
                             </div>
 
-                            {/* Skills Section */}
                             <div className='border border-red-200 rounded-lg md:p-7 py-7 flex flex-col gap-8 items-center shadow-lg shadow-red-300'>
                                 <h3 className='text-2xl font-semibold text-red-600'>Skills & Expertise</h3>
                                 <div className='flex items-center justify-center flex-wrap gap-3'>
-                                    {/* Skill Card Example */}
                                     <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
                                         <img src={Html} alt="HTML" className='w-10' />
                                         <span className='font-semibold'>HTML</span>
                                     </div>
-                                    {/* Repeat Skill Cards */}
                                     <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
                                         <img src={Css} alt="CSS" className='w-8' />
                                         <span className='font-semibold'>CSS</span>
@@ -68,7 +58,6 @@ const About = () => {
                                         <img src={ReactLogo} alt="React" className='w-8 rounded-full' />
                                         <span className='font-semibold'>React</span>
                                     </div>
-                                    {/* Add other skill cards similarly */}
                                     <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
                                         <img src={NextJs} alt="Next.js" className='w-9' />
                                         <span className='font-semibold'>Next Js</span>
@@ -78,7 +67,6 @@ const About = () => {
                         </div>
                     </div>
 
-                    {/* Additional Info Section */}
                     <div className='mt-12'>
                         <h3 className='text-2xl font-semibold text-gray-900'>More About Me</h3>
                         <p className='mt-4 text-lg text-gray-600'>
