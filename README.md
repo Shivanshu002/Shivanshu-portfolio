@@ -1,8 +1,26 @@
-# React + Vite
+# Shivanshu Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built using **React.js**, **Vite bundler**, **HTML**, and **Tailwind CSS**. The portfolio showcases the skills, projects, and experience of Shivanshu, and it is designed to be clean, responsive, and modern.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive design**: The website adapts to various screen sizes (desktop, tablet, mobile).
+- **Clean & modern UI**: Utilizes **Tailwind CSS** for a minimal and customizable design.
+- **Fast performance**: Powered by **Vite**, which ensures fast build times and optimal performance.
+- **React-based components**: The UI components are reusable and built using **React.js**.
+
+## Technologies Used
+
+- **React.js**: A JavaScript library for building user interfaces.
+- **Vite**: A next-generation, fast bundler for front-end development.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+- **HTML**: Standard markup language used to create the structure of the website.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/shivanshu002/shivanshu-portfolio.git
