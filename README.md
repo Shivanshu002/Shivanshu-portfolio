@@ -6,7 +6,7 @@ This is a personal portfolio website built using **React.js**, **Vite bundler**,
 
 This project is deployed on Netlify. You can view the live version here:
 
-[Shivanshu Portfolio Live](https://elegant-ganache-69e849.netlify.app/)
+[Shivanshu Portfolio Live](https://unrivaled-bavarois-760372.netlify.app/)
 
 
 ## Features
